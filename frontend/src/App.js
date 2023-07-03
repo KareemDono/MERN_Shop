@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <>
-      <h1>Welcome To Shop!</h1>
       <Header />
       <main className='py-3'>
         <Container>
