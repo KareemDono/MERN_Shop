@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Airpods",
     image: "/images/airpods.jpg",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "2",
     name: "Alexa",
     image: "/images/alexa.jpg",
     description: "Alexa description...",
@@ -25,7 +23,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "Camera",
     image: "/images/camera.jpg",
     description: "Camera description...",
@@ -36,9 +33,7 @@ const products = [
     Rating: 4.8,
     numReviews: 15,
   },
-  // Add the remaining products here
   {
-    _id: "4",
     name: "Mouse",
     image: "/images/mouse.jpg",
     description: "Mouse description...",
@@ -50,7 +45,6 @@ const products = [
     numReviews: 6,
   },
   {
-    _id: "5",
     name: "Phone",
     image: "/images/phone.jpg",
     description: "Phone description...",
@@ -62,7 +56,6 @@ const products = [
     numReviews: 20,
   },
   {
-    _id: "6",
     name: "Playstation",
     image: "/images/playstation.jpg",
     description: "Playstation description...",
@@ -74,7 +67,6 @@ const products = [
     numReviews: 18,
   },
   {
-    _id: "7",
     name: "Sample",
     image: "/images/sample.jpg",
     description: "Sample description...",
@@ -84,18 +76,6 @@ const products = [
     countInStock: 15,
     Rating: 4.3,
     numReviews: 10,
-  },
-  {
-    _id: "8",
-    name: "Screens",
-    image: "/images/screens.jpg",
-    description: "Screens description...",
-    brand: "Sample Brand",
-    category: "Electronics",
-    price: 149.99,
-    countInStock: 8,
-    Rating: 4.6,
-    numReviews: 14,
-  },
+  }
 ];
 export default products;
