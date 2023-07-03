@@ -1,3 +1,6 @@
+//this page is a controller for the product model. it handles the routes for the product model.
+//it uses the asyncHandler middleware to handle errors. it uses the product model to find products by id or all products.
+
 import asyncHandler from '../middleware/asyncHandler.js'
 import Product from '../models/productModel.js';
 
@@ -22,3 +25,4 @@ const getProductById = asyncHandler(async (req, res) => {
 });
 
 export { getProducts, getProductById };
+
