@@ -8,7 +8,7 @@ const products = [
     category: "Electronics",
     price: 89.99,
     countInStock: 10,
-    Rating: 4.5,
+    rating: 4.5,
     numReviews: 12,
   },
   {
@@ -76,6 +76,6 @@ const products = [
     countInStock: 15,
     Rating: 4.3,
     numReviews: 10,
-  }
+  },
 ];
 export default products;
