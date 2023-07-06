@@ -1,7 +1,9 @@
+
 {
   "name": "shop_mern",
   "version": "1.0.0",
   "description": "shop built with mern stack",
+  "_comment": "static import is loaded at the beginning of the program, dynamic import is loaded at runtime.",
   "type": "module",
   "main": "server.js",
   "scripts": {

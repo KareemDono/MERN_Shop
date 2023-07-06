@@ -1,3 +1,6 @@
+//authMiddleware is used to protect routes from unauthorized users. It is used in the userRoutes.js file.
+//JWT Cookie: is a small piece of data that is stored in the browser. It's used to store information about the user.
+
 import jwt from 'jsonwebtoken';
 import asyncHandler from './asyncHandler.js';
 import User from '../models/userModel.js';

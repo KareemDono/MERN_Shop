@@ -1,3 +1,5 @@
+//handles all the routes for products
+
 import express from 'express';
 const router = express.Router();
 import {

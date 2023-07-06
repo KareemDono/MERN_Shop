@@ -1,3 +1,6 @@
+//model to store the product details in the database
+
+
 import mongoose from 'mongoose';
 
 const reviewSchema = mongoose.Schema(

@@ -1,3 +1,7 @@
+//model to store the order details in the database
+//*mongoose is a library that allows us to create models for our data
+//model -> schema -> data (blueprint)
+
 import mongoose from 'mongoose';
 
 const orderSchema = mongoose.Schema(

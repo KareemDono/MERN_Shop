@@ -1,3 +1,6 @@
+//this seeder will import data from the data folder into the database
+//it will also delete all data from the database
+
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import colors from 'colors';

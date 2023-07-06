@@ -1,3 +1,8 @@
+//the controller for orders. It contains the functions that are called when a request is sent to the server for orders.
+//routes -> /api/orders
+//asyncHandler: it's a middleware function that wraps the async functions in a try/catch block. It's used to avoid having to write try/catch blocks in every controller function.
+
+
 import asyncHandler from '../middleware/asyncHandler.js';
 import Order from '../models/orderModel.js';
 

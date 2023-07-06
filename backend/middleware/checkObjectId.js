@@ -1,3 +1,5 @@
+//checkObjectId: for checking if the id is a valid mongoose object id
+
 // @ts-check
 import { isValidObjectId } from 'mongoose';
 

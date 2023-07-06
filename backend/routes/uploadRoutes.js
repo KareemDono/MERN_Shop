@@ -1,3 +1,8 @@
+//This file is used to upload images to the server and store them in the uploads folder. 
+//it uses multer, a middleware for handling multipart/form-data, which is primarily used for uploading files.
+//multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
+//multipart/form-data is an HTTP POST that allows you to upload files to the server.
+
 import path from 'path';
 import express from 'express';
 import multer from 'multer';

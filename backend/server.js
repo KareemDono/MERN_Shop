@@ -1,3 +1,6 @@
+// cookie-parser is a middleware which parses cookies attached to the client request object.
+// it also populates the req.cookies object with the cookies that came along with the request.
+
 import path from 'path';
 import express from 'express';
 import dotenv from 'dotenv';

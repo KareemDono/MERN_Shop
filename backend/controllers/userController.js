@@ -1,3 +1,9 @@
+//the controller for the user model. It contains all the functions that are used to handle the requests made to the user model.
+//asyncHandler: it's a middleware function that wraps the async functions in a try/catch block. It's used to avoid having to write try/catch blocks in every controller function.
+//generateToken: It generates a token and sets it as a cookie in the response.
+//generateToken: It's used to authenticate the user. It's used in the authUser and registerUser functions. It's also used in the logoutUser function to clear the cookie.
+//cookie: It's a small piece of data that is stored in the browser. It's used to store information about the user. It's used to authenticate the user. It's used in the authUser and registerUser functions. It's also used in the logoutUser function to clear the cookie.
+
 import asyncHandler from '../middleware/asyncHandler.js';
 import generateToken from '../utils/generateToken.js';
 import User from '../models/userModel.js';

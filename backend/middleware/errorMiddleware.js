@@ -1,3 +1,8 @@
+//a middleware that handles errors. It is used in the server.js file.
+//a middleware is a function that has access to the request and response objects.
+//It can execute any code, make changes to the request and response objects, end the request-response cycle, and call the next middleware in the stack.
+
+
 const notFound = (req, res, next) => {
   const error = new Error(`Not Found - ${req.originalUrl}`);
   res.status(404);

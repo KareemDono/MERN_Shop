@@ -1,3 +1,9 @@
+//model to store the user details in the database
+//bcryptjs:  is a library that allows us to encrypt passwords
+//we used bcryptjs to encrypt the user's password before storing it in the database
+
+
+
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 
